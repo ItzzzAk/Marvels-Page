@@ -1,0 +1,452 @@
+@font-face {
+  font-family: avengers;
+  src: url(/Assets/fonts/AVENGEANCE\ HEROIC\ AVENGER.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  color: #fff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#main {
+  background: #000;
+  width: 100%;
+}
+
+#page1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+nav {
+  padding: 0vw 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+}
+
+.fst {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3vw 0.5vw;
+  border: 2px solid #eb1d24;
+}
+
+.fst h1 {
+  font-size: 1.5vw;
+  color: #fff;
+  letter-spacing: -0.1vw;
+}
+
+.snd {
+  display: flex;
+  gap: 10px;
+}
+
+.snd a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: -0.01vw;
+  font-size: 0.8vw;
+}
+
+#cont {
+  padding: 0vw 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.box {
+  width: 15%;
+  height: 40%;
+}
+.box2 {
+  margin-bottom: 5vw;
+  width: 22%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2vw;
+}
+.box3 {
+  width: 15%;
+  height: 40%;
+}
+
+.elem1 {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1vw;
+}
+
+.elem3 {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 1vw;
+}
+
+.elem1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.box h5 {
+  font-size: 0.9vw;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 1vw;
+}
+
+.box p {
+  width: 85%;
+  text-align: left;
+  font-size: 0.8vw;
+  color: #b5b5b5;
+  text-transform: capitalize;
+}
+
+.box2 h1 {
+  color: #222;
+  cursor: pointer;
+  font-size: 10vw;
+  text-transform: uppercase;
+  font-family: avengers;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
+.box2 h1:hover {
+  letter-spacing: 1vw;
+  color: #ffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.5),
+    0 0 50px rgba(255, 255, 255, 0.5), 0 0 100px rgba(255, 255, 255, 0.5),
+    0 0 110px rgba(255, 255, 255, 0.5);
+}
+
+.box2 .btm {
+  position: absolute;
+  bottom: 8%;
+}
+
+.btm i {
+  transition: 0.6s;
+  padding: 2vw 2vw;
+  font-size: 2vw;
+  background: #eb1d24;
+  border-radius: 50%;
+}
+
+.btm i:hover {
+  border: 2px solid #969696;
+  background: none;
+}
+
+.box3 h5 {
+  font-size: 0.9vw;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 1vw;
+}
+
+.box3 p {
+  width: 85%;
+  text-align: left;
+  font-size: 0.8vw;
+  color: #b5b5b5;
+  text-transform: capitalize;
+}
+
+.elem2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.elem3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+#page2 {
+  width: 100%;
+  height: 100vh;
+}
+
+#window {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+#leftchipku {
+  padding: 2vw 0vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+  height: 100vh;
+}
+
+#icons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+}
+
+#icons i {
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+#btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vw;
+  align-items: center;
+  width: 30%;
+  height: 20%;
+  margin-bottom: 2vw;
+}
+
+#btns h1 {
+  transform: rotate(90deg);
+  font-size: 1vw;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+#btns i {
+  padding: 0.2vw 1vw;
+  background: #eb1d24;
+  font-size: 2vw;
+  transition: 0.6s;
+}
+
+#btns i:hover {
+  box-shadow: 0 0 10px #eb1d24, 0 0 40px #eb1d24, 0 0 80px #eb1d24,
+    0 0 160px #eb1d24;
+}
+
+#left {
+  width: 20%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#left::-webkit-scrollbar {
+  display: none;
+}
+
+#left > .banners {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 20%;
+}
+
+.banners img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.6;
+}
+
+.banners h1 {
+  font-size: 1.5vw;
+  z-index: 2;
+  text-transform: uppercase;
+  margin: 0 0 0.7vw 1vw;
+  font-weight: 600;
+}
+
+.banners h1 span {
+  font-weight: 400;
+}
+
+#right {
+  width: 70%;
+  height: 100%;
+}
+
+.bannerdata {
+  padding: 10vw 3vw;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.line {
+  height: 0.5vh;
+  width: 26%;
+  margin-bottom: 4vw;
+  background: #ff2231;
+}
+
+.bannerdata img {
+  top: 20%;
+  left: 65%;
+  position: absolute;
+  border-radius: 5px;
+}
+
+.bannerdata img {
+  width: 20vw;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.6s;
+}
+
+.bannerdata img:hover {
+  filter: grayscale(1);
+}
+
+.bannerdata span {
+  font-weight: 800;
+  font-size: 7vw;
+  text-transform: uppercase;
+}
+.bannerdata span:nth-child(2) {
+  margin-left: 1.5vw;
+  font-weight: 500;
+  font-size: 7vw;
+  text-transform: uppercase;
+}
+
+.bannerdata .dets {
+  width: 50%;
+}
+
+.bannerdata .dets p {
+  margin-bottom: 1vw;
+  font-size: 0.8vw;
+  color: #b5b5b5;
+  font-weight: 500;
+}
+
+.bannerdata button {
+  background: none;
+  position: relative;
+  font-size: 0.6vw;
+  letter-spacing: 0.01vw;
+  color: #eb1d24;
+  text-transform: uppercase;
+  border: 2px solid #eb1d24;
+  padding: 0.6vw 0.6vw;
+  transition: 1s;
+  overflow: hidden;
+  z-index: 1;
+  transition-delay: 0s, 1s;
+  font-weight: 500;
+}
+
+.bannerdata button:hover {
+  color: var(--white);
+  box-shadow: 0 0 10px #eb1d24, 0 0 40px #eb1d24, 0 0 80px #eb1d24,
+    0 0 160px #eb1d24;
+}
+
+.bannerdata button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50px;
+  width: 0%;
+  height: 100%;
+  background: #eb1d24;
+  transform: skewX(35deg);
+  z-index: -1;
+  transition: 1s;
+}
+
+.bannerdata button:hover::before {
+  width: 100%;
+}
+
+.bannerdata:nth-child(3) span {
+  font-weight: 800;
+  font-size: 4.5vw;
+  text-transform: uppercase;
+}
+.bannerdata:nth-child(3) span:nth-child(2) {
+  margin-left: 1vw;
+  font-weight: 500;
+  font-size: 4.5vw;
+  text-transform: uppercase;
+}
+
+.bannerdata:nth-child(4) span {
+  font-weight: 800;
+  font-size: 4.5vw;
+  text-transform: uppercase;
+}
+.bannerdata:nth-child(4) span:nth-child(2) {
+  margin-left: 1vw;
+  font-weight: 500;
+  font-size: 4.5vw;
+  text-transform: uppercase;
+}
+
+.bannerdata:nth-child(6) span {
+  font-weight: 800;
+  font-size: 4.5vw;
+  text-transform: uppercase;
+}
+.bannerdata:nth-child(6) span:nth-child(2) {
+  margin-left: 1vw;
+  font-weight: 500;
+  font-size: 4.5vw;
+  text-transform: uppercase;
+}
+
+.bannerdata:nth-child(8) span {
+  font-weight: 800;
+  font-size: 4.5vw;
+  text-transform: uppercase;
+}
+.bannerdata:nth-child(8) span:nth-child(2) {
+  margin-left: 1vw;
+  font-weight: 500;
+  font-size: 4.5vw;
+  text-transform: uppercase;
+}
+
+.bannerdata {
+  display: none;
+}
+.bannerdata:first-child {
+  display: block;
+}
